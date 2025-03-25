@@ -36,6 +36,11 @@ This project replicates the results of the paper ["An Image is Worth 16x16 Words
 - Batch size: 512  
 - Callbacks: Early stopping
 
+## Results
+
+**Accuracy on CIFAR-10:** 99.50 ± 0.06% (Pretrained on JFT-300M)  
+
+
 **Proposed Benefits**
 - Outperforms CNNs with less compute  
 - Hybrids (CNN inputs + Transformer) work well for smaller ViT variants but not for larger ones  
